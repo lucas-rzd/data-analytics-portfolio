@@ -1,0 +1,21 @@
+New-Item -Name ".gitignore" -ItemType File
+```
+
+Abre o arquivo `.gitignore` no VSCode e cola esse conteúdo:
+```
+# VSCode
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Dados sensíveis
+*.env
