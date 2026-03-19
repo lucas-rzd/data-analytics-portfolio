@@ -12,3 +12,7 @@ estudos-python/venv/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Outputs gerados automaticamente
+estudos-python/outputs/
+*.png
